@@ -1145,6 +1145,7 @@ header {
     padding: 1rem;
 }
 
+/* ----------HERO -6----------- */
 .hero_6_h2 {
     font-size: 2.25rem;
     font-weight: 600;
@@ -1187,11 +1188,14 @@ header {
     line-height: 1.75rem;
 }
 
+/* ---------------HERO-7------------ */
 .hero_7 {
     margin-top: 5rem;
     height: 40vh;
     width: 100vw;
-
+    background-color: #211c0f;
+    padding-top: 3rem;
+    color: #EFF6FD;
 }
 
 .hero_7_inside {
@@ -1200,7 +1204,6 @@ header {
     margin: auto;
     /* background-color: #545454; */
     display: flex;
-
     justify-content: space-between;
 
 }
@@ -1218,7 +1221,7 @@ header {
 
 .hero_7_inside_left_2 {
     font-size: 1rem;
-    color: #6f6f6f;
+    /* color: #6f6f6f; */
     line-height: 1.25rem;
     font-weight: 400;
     letter-spacing: .05rem;
@@ -1231,6 +1234,7 @@ header {
 }
 
 .hero_7_inside_left_3 svg {
+    color: white;
     height: 1.125rem;
     width: 1.125rem;
 }
@@ -1251,18 +1255,24 @@ header {
 
 .hero_7_inside_right_address h3 {
     line-height: 1.5rem;
+    font-size: 1.5rem;
 
 }
 
 .hero_7_inside_right_address p {
     text-transform: uppercase;
-    color: #6f6f6f;
+    /* color: #6f6f6f; */
     line-height: 1.5rem;
     margin-top: 1rem;
 }
 
-.hero_7_inside_right_contact p {
-    color: #6f6f6f;
-    line-height: 1.5rem;
+.hero_7_inside_right_contact h3 {
     margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.hero_7_inside_right_contact p {
+    /* color: #6f6f6f; */
+    line-height: 1.2rem;
+    margin-top: .5rem;
 }
